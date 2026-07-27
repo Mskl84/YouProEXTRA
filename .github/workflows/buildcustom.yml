@@ -201,7 +201,7 @@ jobs:
       - name: Hide Sensitive Inputs
         uses: levibostian/action-hide-sensitive-inputs@v1
         with:
-          exclude_inputs: bundle_id,display_name,custom_name,demc,isponsorblock,ythold,volumeboost,nativeshare,opensafari,youpip,ytuhd,ryd,ytabconfig,youquality,youslider,ytsilentvote,ytweaks,youchoose,gonerino,yougetcaption,youspeed,youmute,youloop
+          exclude_inputs: bundle_id,display_name,custom_name,demc,isponsorblock,ythold,volumeboost,nativeshare,opensafari,youpip,ryd,ytabconfig,youquality,youslider,ytsilentvote,ytweaks,youchoose,gonerino,yougetcaption,youspeed,youmute,youloop
 
       - name: Download and Validate IPA
         run: |
